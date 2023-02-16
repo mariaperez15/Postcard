@@ -1,10 +1,6 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	background: white;
 	width: 400px;
@@ -17,16 +13,17 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin-top: 21px;
 }
 .postcard-header h1 {
-	width: 400px;
+	width: 335px;
 	height: 50px;
 }
 .postcard-body {
 	display: flex;
 }
 .body-left p:first-child {
-	margin-top: none;
+	margin-top: 0px;
 }
 .body-left,
 .body-right {
@@ -34,10 +31,12 @@ body {
 }
 input {
 	border: none;
-	border-bottom: grey 3px;
+	border-bottom: grey solid 1px;
+	color: gray;
+	margin: 5px;
 }
 p {
-	font-family: "Roboto", sans-serif;
+	font-family: "Indie Flower", cursive;
 }
 .postcard-footer {
 	text-align: center;
